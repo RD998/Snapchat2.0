@@ -1,0 +1,23 @@
+body{
+    background-position: center;
+    background-size: cover;
+    background-image:url(amongus.png) ;
+}
+.button:hover{
+   background-color:blue;
+}
+canvas{
+    margin-top: 100px;
+  animation-name: nameany;
+  animation-duration: 16s;
+  animation-iteration-count: infinite;
+ }
+ @keyframes nameany {
+     from{box-shadow: 2px 2px 40px brown;}
+     to{box-shadow: 3px 3px 40px white;}
+ }
+ .ss{
+     color: yellow;
+ }
+     
+ 
